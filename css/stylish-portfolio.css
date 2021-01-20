@@ -48,18 +48,31 @@ h6 {
 /* Map */
 .map {
   height: 30rem;
-  text-align: center;
-  display: block;
-}
+  }
 
 @media (max-width: 992px) {
   .map {
     height: 75%;
+    
   }
 }
 
 .map iframe {
   pointer-events: none;
+}
+
+.maps {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: url("../img/maps.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .scroll-to-top {
@@ -96,19 +109,6 @@ h6 {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: url("../img/Teola_masthead.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.maps {
-  min-height: 20rem;
-  position: relative;
-  display: table;
-  width: 100%;
-  height: auto;
-  padding-top: 0rem;
-  padding-bottom: 8rem;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -282,7 +282,7 @@ h6 {
 .influencer {
   color: #fff;
   position: relative;
-  top: -250px;
+  top: 90px;
 }
 
 

@@ -48,6 +48,8 @@ h6 {
 /* Map */
 .map {
   height: 30rem;
+  text-align: center;
+  display: block;
 }
 
 @media (max-width: 992px) {

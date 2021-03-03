@@ -115,12 +115,12 @@ h6 {
 }
 
 .masthead h1 {
-  font-size: 1.5rem;
-  background: -webkit-linear-gradient(#fff, #333);
+  font-size: .8rem;
+  /*background: -webkit-linear-gradient(#fff, #333);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;*/
   position: relative;
-  margin-top: 120px;
+  margin-top: 300px;
   padding: 0;
 }
 
